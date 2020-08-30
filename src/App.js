@@ -14,7 +14,6 @@ function App() {
         <Route exact path='/admin' component={Admin} />
         <Route component={NotFound}/>
       </Switch>
-
     </div>
   );
 }
